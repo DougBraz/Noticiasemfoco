@@ -1,1 +1,53 @@
-.titulo{ text-align:center;}
+body {
+    font-family: "Newsreader", sans-serif;
+}
+
+h1 {
+    font-family: "Newsreader", sans-serif;
+}
+
+p {
+    font-family: "Newsreader", sans-serif;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.link-list li {
+    margin-right: 10px;
+    /* Ajuste o espaçamento entre as opções do menu */
+}
+
+.link-list li:last-child {
+    margin-right: 0;
+    /* Remove a margem direita da última opção do menu */
+}
+
+.link-list li a {
+    font-size: 1.2em;
+    /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;
+    /* Adiciona negrito */
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5em;
+}
+img {
+    width: 300px;
+    border-radius: 16px;
+  }
+h2 {
+    float: right;
+    margin-left: 1cm;
+    margin-right: 2cm;
+    
+  }
+  
