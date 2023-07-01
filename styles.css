@@ -1,20 +1,46 @@
 body {
-    font-family: "Newsreader", sans-serif;
+  font-family: 'Newsreader', serif;
 }
 
 h1 {
-    font-family: "Newsreader", sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 p {
-    font-family: "Newsreader", sans-serif;
+  font-family: 'Newsreader', serif;
+
+}
+
+body {
+  background-color: #FFF3B3;
 }
 
 .link-list {
-    display: flex;
-    list-style: none;
-    justify-content: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color:#f5c108;
+  border-radius: 10px;
+  padding: 10px;
 }
+
+.link-list li {
+  margin: 0 10px;
+}
+
+.link-list li a {
+  text-decoration: none;
+  color: #070707; /* cor do texto */
+  padding: 5px 10px;
+  border: 1px solid #0a0a0a; /* cor da borda */
+  border-radius: 5px;
+}
+
+.link-list li a:hover {
+  background-color: #FFFFFF; /* cor do fundo ao passar o mouse */
+  color: #f5c108; /* cor do texto ao passar o mouse */
+}
+
 
 .link-list li {
     margin-right: 10px;
@@ -49,4 +75,112 @@ h2 {
     float: center;
     font-size: 1cm;
   }
+  h1 {
+    text-align: center;
+    float: center;
+    font-size: 1cm;
+  }
+  h4 {
+    text-align: justify;
+  }
+  .tabela-noticias table,
+  .tabela-ranking table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: 0 auto;
+  }
   
+  .tabela-noticias th,
+  .tabela-noticias td,
+  .tabela-ranking th,
+  .tabela-ranking td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+  }
+  footer {
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    font-weight: bold; /* Aplica a formatação em negrito */
+  }
+  .custom-footer {
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    font-weight: bold; /* Aplica a formatação em negrito */
+  }
+  
+  .custom-footer ul li {
+    display: inline-block; /* Exibe os elementos em linha */
+  }
+  .right-aligned {
+    text-align: right; /* Alinha à direita */
+  }
+  
+  .left-aligned {
+    text-align: left; /* Alinha à esquerda */
+  }
+  
+  .center-aligned {
+    text-align: center; /* Centraliza */
+  }
+  .justified {
+    text-align: justify;
+  }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  section {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"],
+button[type="reset"] {
+    background-color: #f5d419;
+    color: rgb(13, 13, 13);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #FFF3B3;
+}

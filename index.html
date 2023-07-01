@@ -23,11 +23,15 @@
       href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
     <header>
       <h1>Notícias em Foco</h1>
+      <p>Informação relevante e atualizada para você.</p>
     </header>
 
     <nav>
@@ -60,7 +64,7 @@
             Santos, resultando em condenação judicial para a exportadora de
             carne.
           </h4>
-          <p>
+          <p class="justified">
             Uma exportadora de carne foi condenada por transportar cerca de 30
             mil cabeças de gado em condições degradantes. Os animais foram
             submetidos a viagens de até 13 horas, enfrentando condições de
@@ -92,7 +96,7 @@
             preocupações sobre a preservação da biodiversidade e o combate às
             mudanças climáticas.
           </h4>
-          <p>
+          <p class="justified">
             Desde a assinatura do Acordo de Paris, o Brasil tem enfrentado um
             aumento alarmante na taxa de desmatamento, resultando em uma perda
             significativa de florestas. Esse cenário coloca em dúvida os
@@ -121,7 +125,7 @@
             espécies, incluindo pássaros, peixes e répteis, trazendo novas
             descobertas para a ciência.
           </h4>
-          <p>
+          <p class="justified">
             Um fenômeno raro e fascinante tem chamado a atenção dos cientistas
             nos últimos anos. Conhecido como "parto virgem" ou partenogênese,
             esse processo ocorre quando um animal se reproduz sem a necessidade
@@ -149,7 +153,7 @@
             A indústria dos musicais enfrenta desafios criativos à medida que
             adaptações de filmes dominam os palcos, segundo produtores do setor.
           </h4>
-          <p>
+          <p class="justified">
             Produtores de musicais alertam para uma crise criativa na indústria,
             atribuindo-a à prevalência de adaptações cinematográficas nos
             palcos. Eles destacam a importância de investir em novas histórias e
@@ -175,7 +179,7 @@
             trabalhista, questionando o compromisso com os direitos das
             crianças.
           </h4>
-          <p>
+          <p class="justified">
             O país mais rico do mundo tem enfrentado críticas e preocupações à
             medida que suas leis contra o trabalho infantil são afrouxadas.
             Especialistas e defensores dos direitos das crianças levantaram
@@ -204,7 +208,7 @@
             Brasil, levantando preocupações sobre a qualidade dos profissionais
             de saúde formados no país.
           </h4>
-          <p>
+          <p class="justified">
             A escassez de cadáveres disponíveis para estudos anatômicos tem sido
             uma questão crítica nas universidades brasileiras, comprometendo a
             formação de médicos e profissionais da saúde. Diante desse desafio,
@@ -232,7 +236,7 @@
             Acusações de desinformação e incitação ao ódio levam o Ministério
             Público a requerer a revogação das concessões da Jovem Pan.
           </h4>
-          <p>
+          <p class="justified">
             O Ministério Público apresentou um pedido para a cassação das
             concessões da Jovem Pan, uma das principais redes de rádio do país.
             A solicitação é baseada em alegações de desinformação, disseminação
@@ -260,7 +264,7 @@
             promoção de perda de peso significativa, oferecendo uma alternativa
             conveniente aos pacientes.
           </h4>
-          <p>
+          <p class="justified">
             Estudos recentes revelam que uma nova versão em comprimido do
             medicamento Ozempic apresenta resultados promissores na redução de
             peso. Essa descoberta é significativa, pois o Ozempic já é conhecido
@@ -288,7 +292,7 @@
             da turnê 'The Eras Tour' por meio do WhatsApp. Especialistas
             oferecem orientações para evitar prejuízos financeiros.
           </h4>
-          <p>
+          <p class="justified">
             Fãs da cantora Taylor Swift no Brasil foram alvos de um site falso
             que promovia a venda fraudulenta de ingressos para os shows da turnê
             "The Eras Tour". Além disso, criminosos também tentaram vender
@@ -312,7 +316,7 @@
             teste de Covid e comprovante de vacinação para ingresso no Brasil.
             Medida foi divulgada em nota técnica em maio.
           </h4>
-          <p>
+          <p class="justified">
             A Agência Nacional de Vigilância Sanitária (Anvisa) informou que o
             Brasil não exige mais teste de Covid ou comprovante de vacinação
             para entrada no país. Essa medida foi adotada após o término da
@@ -324,7 +328,7 @@
         </article>
       </div>
       </section>
-      <section>
+      <section class="tabela-noticias">
         <table>
           <tr>
             <th>Noticias da Semana</th>
@@ -402,8 +406,8 @@
             <td>430 mil</td>
           </tr>
         </table>
-      </section>
-      <section>
+      </section><br><br>
+      <section class="tabela-ranking">
         <table>
           <tr>
             <th>Ranking de Publicações</th>
@@ -453,19 +457,16 @@
         </table>
       </section>
     </main>
-    <footer>
+    <footer class="custom-footer">
       <!-- Conteúdo do rodapé -->
       <p>&copy; 2023 Noticias em Foco - Todos os direitos reservados</p>
       <ul>
         <li>
-          <a
-            href="https://www.linkedin.com/in/douglas-roberto-da-silva-79184a94/"
-            target="_blank"
-            >LinkedIn</a
-          >
-        </li>
+          <a href="https://www.linkedin.com/in/douglas-roberto-da-silva-79184a94/" target="_blank">LinkedIn</a>
+        </li> |
         <li><a href="contato.html" target="_blank">Contato</a></li>
       </ul>
     </footer>
+    
   </body>
 </html>
