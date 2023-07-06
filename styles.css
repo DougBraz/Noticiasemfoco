@@ -236,34 +236,40 @@ nimation: color-change-4x 6s linear infinite alternate both;
   font-size: 25px;
 }
 
-.tracking-in-expand {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
-  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite both;
+.tracking-in-expand-fwd-bottom {
+	-webkit-animation: tracking-in-expand-fwd-bottom 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) ;
+  animation: tracking-in-expand-fwd-bottom 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) ;
 }
 
-@-webkit-keyframes tracking-in-expand {
+@-webkit-keyframes tracking-in-expand-fwd-bottom {
   0% {
     letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
-
-@keyframes tracking-in-expand {
+@keyframes tracking-in-expand-fwd-bottom {
   0% {
     letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(500px);
+            transform: translateZ(-700px) translateY(500px);
     opacity: 0;
   }
   40% {
     opacity: 0.6;
   }
   100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
-
